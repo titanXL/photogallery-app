@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "Emil Davidkov <emildavidkov88@gmail.com>",
-  "homepage": "https://titanxl.github.io/photogallery",
+  "homepage": "https://titanxl.github.io/photogallery-app",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
