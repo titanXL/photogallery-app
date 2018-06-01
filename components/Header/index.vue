@@ -39,6 +39,7 @@
     mounted() {
       window.addEventListener('scroll', this.handleScroll)
       window.addEventListener('resize', this.handleResize)
+      this.isMobile = window.innerWidth < 769
     },
     destroyed() {
       window.removeEventListener('scroll', this.handleScroll)
