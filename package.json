@@ -1,0 +1,38 @@
+{
+  "name": "photogallery",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Emil Davidkov <emildavidkov88@gmail.com>",
+  "homepage": "https://titanxl.github.io/photogallery",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/vue-fontawesome": "0.0.22",
+    "@nuxtjs/font-awesome": "^1.0.3",
+    "nuxt": "^1.0.0",
+    "vue-hamburger": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "gh-pages": "^1.1.0",
+    "node-sass": "^4.9.0",
+    "nuxt-sass-resources-loader": "^2.0.1",
+    "sass-loader": "^7.0.1"
+  }
+}

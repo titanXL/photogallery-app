@@ -1,0 +1,23 @@
+$base-dark-color: #000000;
+$base-light-color: #ffffff;
+
+$snappy-bezier: cubic-bezier(1,.02,.88,.66);
+
+.background-dark {
+  background-color: $base-dark-color;
+}
+.background-light {
+  background-color: $base-light-color;
+}
+
+.color-dark {
+  color: $base-dark-color;
+}
+
+.color-light {
+  color: $base-light-color;
+}
+
+.background-transparent {
+  background-color: transparent;
+}
