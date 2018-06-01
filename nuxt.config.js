@@ -1,10 +1,10 @@
 const {resolve} = require('path')
 
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+const routerBase = {
   router: {
     base: '/photogallery-app/'
   }
-} : {}
+}
 
 module.exports = {
   ...routerBase,
@@ -64,7 +64,6 @@ module.exports = {
         })
       }
     }
-  },
-  router: {
-    middleware: 'log'  }
+  }
+
 }
